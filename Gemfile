@@ -47,7 +47,6 @@ gem "bootsnap", require: false
 
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"
-gem 'better_errors', '~> 2.4'
 gem 'bulma-rails', '~> 0.9.4'
 gem 'simple_form', '~> 5.1'
 
@@ -56,6 +55,7 @@ group :development, :test do
   gem "debug", platforms: %i[ mri mingw x64_mingw ]
   gem 'byebug', '~> 11.1', '>= 11.1.3'
   gem 'guard', '~> 2.18'
+  gem 'better_errors', '~> 2.4'
   gem 'guard-livereload', '~> 2.5', require: false
 end
 
